@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About You</a></li>
+                <li><a href="memories.html">Memories</a></li>
+                <li><a href="dreams.html">Dreams</a></li>
+                <li><a href="love.html">My Love</a></li>
+                <li><a href="surprise.html">Surprise</a></li>
+                <li><a href="guestbook.html">Guestbook</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+        <h2>Moments We Cherish</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <img src="assets/img3.jpg" alt="Memory 1" class="fade-in">
+                <p>Our First Date: [Add memory, e.g., "You hummed a tune at the café."]</p>
+            </div>
+            <div class="timeline-item">
+                <img src="assets/img4.jpg" alt="Memory 2" class="fade-in">
+                <p>Your Audition: [Add memory, e.g., "I cheered as you shone."]</p>
+            </div>
+        </div>
+        <h3>Love Notes</h3>
+        <ul>
+            <li>I love how your voice lights up a room.</li>
+            <li>I love your courage in chasing dreams.</li>
+            <li>I love you more every day.</li>
+        </ul>
+        <div class="memory-jar">
+            <button onclick="showMemoryNote()">Open Memory Jar</button>
+            <p id="memory-note" style="display: none;">I love you, Kofoworola!</p>
+        </div>
+        <video controls src="assets/video3.mp4" class="fade-in"></video>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guestbook</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About You</a></li>
+                <li><a href="memories.html">Memories</a></li>
+                <li><a href="dreams.html">Dreams</a></li>
+                <li><a href="love.html">My Love</a></li>
+                <li><a href="surprise.html">Surprise</a></li>
+                <li><a href="guestbook.html">Guestbook</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+        <h2>Leave a Note for Your Day</h2>
+        <p>My star, Kofoworola, share your thoughts or a birthday wish!</p>
+        <form id="guestbook-form">
+            <textarea placeholder="Your message..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="guestbook-messages"></div>
+        <img src="assets/img7.jpg" alt="Kofoworola smiling" class="fade-in">
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

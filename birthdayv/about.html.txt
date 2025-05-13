@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Kofoworola</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About You</a></li>
+                <li><a href="memories.html">Memories</a></li>
+                <li><a href="dreams.html">Dreams</a></li>
+                <li><a href="love.html">My Love</a></li>
+                <li><a href="surprise.html">Surprise</a></li>
+                <li><a href="guestbook.html">Guestbook</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+        <h2>Your Gifts Light Up the World</h2>
+        <p>Kofoworola, your singing fills my heart, your dancing paints joy, and your acting brings stories to life. Your audition video was breathtaking—keep chasing your dreams!</p>
+        <h3>5 Reasons You Inspire Me</h3>
+        <ul>
+            <li>Your passion for performing.</li>
+            <li>Your courage in auditions.</li>
+            <li>Your radiant smile.</li>
+            <li>Your kind heart.</li>
+            <li>How you make every moment brighter.</li>
+        </ul>
+        <p class="poem">
+            Your dreams are wings, they soar so high,<br>
+            With every note, you touch the sky.<br>
+            My heart’s your stage, my love your cheer,<br>
+            Keep shining, Kofoworola, I’m always near.
+        </p>
+        <div class="gallery">
+            <img src="assets/img1.jpg" alt="Kofoworola performing" class="fade-in">
+            <img src="assets/img2.jpg" alt="Kofoworola smiling" class="fade-in">
+            <video controls src="assets/video2.mp4" class="fade-in"></video>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

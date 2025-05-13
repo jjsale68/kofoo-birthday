@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Stage for Kofoworola</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>A Stage for Kofoworola</h1>
+        <p>Celebrating Your Day, Our Star!</p>
+    </header>
+
+    <section id="intro">
+        <h2>Happy Birthday, Kofoworola!</h2>
+        <p>Today, the spotlight is on you, our shining star. Your dreams of singing, dancing, and acting light up the world. This stage is yours!</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Your Spotlight Moments</h2>
+        <div class="gallery">
+            <img src="media/kofoworola1.jpg" alt="Kofoworola shining" onclick="openLightbox('media/kofoworola1.jpg')">
+            <img src="media/kofoworola2.jpg" alt="Kofoworola performing" onclick="openLightbox('media/kofoworola2.jpg')">
+            <img src="media/kofoworola3.jpg" alt="Kofoworola smiling" onclick="openLightbox('media/kofoworola3.jpg')">
+        </div>
+        <div id="lightbox" class="lightbox">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-img" src="">
+        </div>
+    </section>
+
+    <section id="videos">
+        <h2>Your Performances</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="media/dance.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section id="message">
+        <h2>A Note from My Heart</h2>
+        <p>Kofoworola, you are a gift to the world. Your voice, your moves, your spirit—they inspire everyone around you. Keep chasing your dreams, and know that I’m always in the front row, cheering you on. I love you forever.</p>
+    </section>
+
+    <footer>
+        <p>Made with Love for Kofoworola’s Special Day</p>
